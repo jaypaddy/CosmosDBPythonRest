@@ -77,8 +77,8 @@ def  createCollection(dburl, collname, ru, resourceid,key,now):
 
 key = '<ACCOUNT KEY>'
 now = datetime.utcnow().strftime('%a, %d %b %Y %H:%M:00 GMT')
-dburl = 'https://<DBACCTNAME>.documents.azure.com/dbs/<DBACCTNAME>/colls'
-resourceid = 'dbs/<DBACCTNAME>'
+dburl = 'https://<DBACCTNAME>.documents.azure.com/dbs/<DBNAME>/colls'
+resourceid = 'dbs/<DBNAME>'
 
 #getCollections(dburl,resourceid, key, now)
 createCollection(dburl,'first',"400",resourceid,key, now)
